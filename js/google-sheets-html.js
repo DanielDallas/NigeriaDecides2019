@@ -15,7 +15,6 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    //var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/13Mb-Rerw0716AgAljf5vg7EKFRB1fUV9233SD_KoKn0/edit?usp=sharing');
     var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1CIrQDJBqQm1ZzxC6xuSBM5_TbUAWSwFX-IM_14PXmFc/edit?usp=sharing');
     query.setQuery('SELECT A, B, C, D, E, F, G, H label A "S/N", B "STATES", C "APC", D "PDP",E "DIFFERENCE",F "WHO WON",G "% APC",H "% PDP"');
     query.send(handleQueryResponse);
