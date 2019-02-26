@@ -16,6 +16,11 @@
   overflow: visible;
 }
 
+img {
+  margin: auto;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
